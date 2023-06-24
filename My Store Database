@@ -1,0 +1,14 @@
+CREATE TABLE my_shoestore
+(id INTEGER PRIMARY KEY,
+brand TEXT,
+price NUMERIC);
+
+INSERT INTO my_shoestore VALUES
+(1, "adidas", 69.99);
+INSERT INTO my_shoestore VALUES
+(4, "nikes", 99.99);
+INSERT INTO my_shoestore VALUES
+(3, "birkenstocks", 129.99);
+
+SELECT price FROM my_shoestore 
+ORDER BY price desc;
